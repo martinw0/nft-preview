@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$very-dark-blue-main: hsl(217, 54%, 11%);
+$very-dark-blue-card: hsl(216, 50%, 16%);
+$very-dark-blue-line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 275px;
+    padding: 25px;
+    background-color: $very-dark-blue-card;
+    font-family: 'Outfit';
+    font-size: 18px;
+    .nft {
+        width: 275px;
+        height: 275px;
+    }
+    h1 {
+        color: $white;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    p {
+        color: $soft-blue;
+        font-weight: 300;
+    }
+    .sell-infos {
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon-text {
+        display: flex;
+        align-items: center;
+        p {
+            margin-left: 6px;
+        }
+    }
+    .price {
+        img {
+            width: 11px;
+            height: 18px;
+        }
+        p {
+            color: $cyan;
+            font-weight: 600;
+        }
+    }
+    .time {
+        img {
+            width: 17px;
+            height: 17px;
+        }
+    }
+    hr {
+        color: $soft-blue;
+    }
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 275px;
+  padding: 25px;
+  background-color: hsl(216deg, 50%, 16%);
+  font-family: "Outfit";
+  font-size: 18px;
+}
+.card .nft {
+  width: 275px;
+  height: 275px;
+}
+.card h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  font-size: 22px;
+}
+.card p {
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300;
+}
+.card .sell-infos {
+  display: flex;
+  justify-content: space-between;
+}
+.card .icon-text {
+  display: flex;
+  align-items: center;
+}
+.card .icon-text p {
+  margin-left: 6px;
+}
+.card .price img {
+  width: 11px;
+  height: 18px;
+}
+.card .price p {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+.card .time img {
+  width: 17px;
+  height: 17px;
+}
+.card hr {
+  color: hsl(215deg, 51%, 70%);
+}
+
+/*# sourceMappingURL=style.css.map */
