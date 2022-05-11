@@ -2,10 +2,11 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: hsl(215deg, 51%, 70%);
 }
 
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(0deg, 0%, 100%);
 }
 
 html, body {
@@ -16,6 +17,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background-color: hsl(217deg, 54%, 11%);
 }
 
 main {
@@ -31,11 +33,13 @@ main {
   padding: 25px;
   background-color: hsl(216deg, 50%, 16%);
   font-family: "Outfit";
-  font-size: 18px;
+  font-size: 15px;
+  border-radius: 15px;
 }
 .card .nft {
   width: 275px;
   height: 275px;
+  border-radius: 10px;
 }
 .card h1 {
   color: hsl(0deg, 0%, 100%);
@@ -70,7 +74,21 @@ main {
   height: 17px;
 }
 .card hr {
-  color: hsl(215deg, 51%, 70%);
+  border-color: hsl(215deg, 32%, 27%);
+}
+.card .creator {
+  display: flex;
+  align-items: center;
+}
+.card .creator img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card .creator p span {
+  color: hsl(0deg, 0%, 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

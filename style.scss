@@ -6,8 +6,8 @@ $very-dark-blue-card: hsl(216, 50%, 16%);
 $very-dark-blue-line: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center;color:$soft-blue; }
+.attribution a { color: $white }
 
 html,body {
     height: 100%;
@@ -17,6 +17,7 @@ html,body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: $very-dark-blue-main;
 }
 
 main {
@@ -32,10 +33,12 @@ main {
     padding: 25px;
     background-color: $very-dark-blue-card;
     font-family: 'Outfit';
-    font-size: 18px;
+    font-size: 15px;
+    border-radius: 15px;
     .nft {
         width: 275px;
         height: 275px;
+        border-radius: 10px;
     }
     h1 {
         color: $white;
@@ -74,6 +77,22 @@ main {
         }
     }
     hr {
-        color: $soft-blue;
+        border-color: $very-dark-blue-line;
+    }
+    .creator {
+        display: flex;
+        align-items: center;
+        img {
+            width: 30px;
+            height: 30px;
+            border: 1px solid $white;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        p {
+            span {
+                color: $white;
+            }
+        }
     }
 }

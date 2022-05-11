@@ -47,7 +47,13 @@ Users should be able to:
 
 ### What I learned
 
+Color an hr elemen:
 
+```
+hr {
+  border-color: red;
+}
+```
 
 ### Continued development
 
